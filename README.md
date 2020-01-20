@@ -5,3 +5,4 @@ It's used to capture,maintain and retrieve patient data at instance by doctors.
 A docker file is updated so it can be used to create docker image
 To pull docker image use - docker pull vishwak1998/ubiquitous_health_recorder_v1:uhr1
 To run container use - sudo docker run -d -p 80:80 --name containername imagename 
+docker link - https://hub.docker.com/r/vishwak1998/ubiquitous_health_recorder_v1
