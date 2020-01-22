@@ -1,4 +1,4 @@
-
+from recordService import *
 #-----GATEWAY-----
 class gatewayService:
     def process(self,data):
