@@ -19,6 +19,6 @@ class gatewayService:
             fileObject = fileService()
             fileObject.write_file("gatewayError",str(e))
             return "error"
-data = '{"id":"pandi","proof":"1256","data":"he has fever"}'
+data = '{"id":"your_id","proof":"your_proof","data":"data"}'
 obj = gatewayService()
 print(obj.process(data))
