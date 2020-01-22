@@ -11,7 +11,7 @@ class gatewayService:
             dictionary = json.loads(data)
             k = dictionary.keys()
             if len(set(k) & set(listsOfKey)) == len(listsOfKey):
-                response = requests.post('http://"yourfile"/get', headers=headers, data=data)
+                response = requests.post('http://"your_ip"/get', headers=headers, data=data)
                 return response.text
             else:
                 return False
